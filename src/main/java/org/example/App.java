@@ -1,7 +1,7 @@
 package org.example;
 
 /*
- *  UCF COP3330 Fall 2021 Assignment 1 Solution
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
  *  Copyright 2021 Daniel Ragusa
  */
 
@@ -15,7 +15,6 @@ public class App
         String InputString;
         Scanner input=new Scanner(System.in);
         InputString=input.next();
-        int length=InputString.length();
         System.out.println((InputString) + " has " + (InputString.length()) + " characters.");
     }
 }
